@@ -1,0 +1,359 @@
+2026-02-11 14:23:01,239 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:23:01,240 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:24:01,530 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:24:01,531 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:28:28,028 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:28:28,030 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:37:35,646 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:37:35,647 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:42:53,695 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:42:53,696 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:44:43,615 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:44:43,615 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:50:00,292 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:50:00,292 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:55:19,271 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-11 14:55:21,284 - ERROR - Error instantiating LLM from unknown object type: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 14:55:21,284 - ERROR - Error occurred: Error importing native provider: OPENAI_API_KEY is required
+2026-02-11 15:00:08,675 - ERROR - Error instantiating LLM from unknown object type: No module named 'openai'
+2026-02-11 15:00:08,676 - ERROR - Error occurred: No module named 'openai'
+2026-02-11 15:07:32,657 - INFO - Starting Crew Execution
+2026-02-11 15:07:32,658 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:07:32,817 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:07:33,705 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:07:33,841 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
+
+2026-02-11 15:07:38,720 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:09:26,932 - INFO - Starting Crew Execution
+2026-02-11 15:09:26,933 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:09:27,162 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:09:27,878 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
+
+2026-02-11 15:09:27,904 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:10:28,427 - INFO - Starting Crew Execution
+2026-02-11 15:10:28,428 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:10:28,606 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:10:28,649 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:10:29,360 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"Invalid API Key","type":"invalid_request_error","code":"invalid_api_key"}}
+
+2026-02-11 15:10:29,386 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:13:29,276 - INFO - Starting Crew Execution
+2026-02-11 15:13:29,276 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:13:29,488 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:30,330 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:30,356 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:30,507 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:30,522 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:30,784 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:30,799 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:31,037 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:31,065 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:31,397 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:31,408 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:31,614 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:31,637 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:31,851 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:31,881 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:32,074 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:13:32,092 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:13:32,268 - ERROR - Error occurred: litellm.RateLimitError: RateLimitError: GroqException - {"error":{"message":"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kh5y2rw4eqhr7z09x9br25wc` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5341, Requested 1389. Please try again in 7.3s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2026-02-11 15:13:32,331 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:26:01,793 - INFO - Starting Crew Execution
+2026-02-11 15:26:01,793 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:26:01,961 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:26:02,717 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:26:02,795 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:26:05,605 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:26:07,452 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.","type":"invalid_request_error","code":"tool_use_failed","failed_generation":"\u003cfunction=test_case_formatter_tool\u003e{\"test_cases_text\": \"Title: Successful Login\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username and password.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Failed Login with Invalid Credentials\\nPreconditions: The user has an invalid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters invalid username and password.\\n3. The user clicks the login button.\\nExpected Result: The user is displayed an error message indicating invalid credentials.\\n\\nTitle: Failed Login with Empty Credentials\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user leaves both username and password fields empty.\\n3. The user clicks the login button.\\nExpected Result: The user is displayed an error message indicating missing credentials.\\n\\nTitle: Failed Login with Invalid Password\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username and an invalid password.\\n3. The user clicks the login button.\\nExpected Result: The user is displayed an error message indicating invalid password.\\n\\nTitle: Failed Login with Invalid Username\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters an invalid username and valid password.\\n3. The user clicks the login button.\\nExpected Result: The user is displayed an error message indicating invalid username.\\n\\nTitle: Login with Username and Password Case Sensitivity\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in lowercase and password in uppercase.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Special Characters\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username with special characters and password with special characters.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Leading/Trailing Spaces\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username with leading/trailing spaces and password with leading/trailing spaces.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Null Values\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters null username and password.\\n3. The user clicks the login button.\\nExpected Result: The user is displayed an error message indicating missing credentials.\\n\\nTitle: Login with Username and Password Very Long Values\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters very long valid username and password.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Very Short Values\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters very short valid username and password.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different formats and password in different formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Languages\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different languages and password in different languages.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Time Zones\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different time zones and password in different time zones.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Date Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different date formats and password in different date formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different number formats and password in different number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Currency Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different currency formats and password in different currency formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Email Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different email formats and password in different email formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Phone Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different phone number formats and password in different phone number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Address Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different address formats and password in different address formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Country Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different country formats and password in different country formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Language Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different language formats and password in different language formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Time Zone Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different time zone formats and password in different time zone formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Date Time Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different date time formats and password in different date time formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different number formats and password in different number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Currency Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different currency formats and password in different currency formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Email Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different email formats and password in different email formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Phone Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different phone number formats and password in different phone number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Address Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different address formats and password in different address formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Country Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different country formats and password in different country formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Language Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different language formats and password in different language formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Time Zone Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different time zone formats and password in different time zone formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Date Time Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different date time formats and password in different date time formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different number formats and password in different number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Currency Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different currency formats and password in different currency formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Email Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different email formats and password in different email formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Phone Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different phone number formats and password in different phone number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Address Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different address formats and password in different address formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Country Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different country formats and password in different country formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Language Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different language formats and password in different language formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Time Zone Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different time zone formats and password in different time zone formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Date Time Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different date time formats and password in different date time formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different number formats and password in different number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Currency Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different currency formats and password in different currency formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Email Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different email formats and password in different email formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Phone Number Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different phone number formats and password in different phone number formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username and Password Different Address Formats\\nPreconditions: The user has a valid account and the application is running.\\nSteps:\\n1. The user navigates to the login page.\\n2. The user enters valid username in different address formats and password in different address formats.\\n3. The user clicks the login button.\\nExpected Result: The user is logged in successfully and redirected to the dashboard.\\n\\nTitle: Login with Username"}}
+
+2026-02-11 15:26:07,563 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:36:40,083 - INFO - Starting Crew Execution
+2026-02-11 15:36:40,084 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:36:40,251 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:36:41,367 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:36:42,581 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:36:42,689 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:36:43,351 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:36:43,397 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:36:43,737 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"tool call validation failed: attempted to call tool 'brave_search' which was not in request.tools","type":"invalid_request_error","code":"tool_use_failed","failed_generation":"\u003cfunction=brave_search\u003e{\"query\": \"test case formatter tool output analysis\"}\u003c/function\u003e"}}
+
+2026-02-11 15:36:43,773 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:50:24,759 - INFO - Starting Crew Execution
+2026-02-11 15:50:24,759 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:50:24,946 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:50:25,554 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:50:25,636 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"property 'additional_params' is unsupported","type":"invalid_request_error"}}
+
+2026-02-11 15:50:25,663 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:52:10,226 - INFO - Starting Crew Execution
+2026-02-11 15:52:10,226 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:52:10,421 - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2026-02-11 15:52:11,158 - ERROR - Error occurred: litellm.BadRequestError: GroqException - {"error":{"message":"property 'model_kwargs' is unsupported","type":"invalid_request_error"}}
+
+2026-02-11 15:52:11,202 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:57:44,183 - INFO - Starting Crew Execution
+2026-02-11 15:57:44,183 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 15:57:44,351 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 15:57:44,937 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 15:57:45,279 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:57:45,345 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 15:57:47,033 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 15:57:47,107 - INFO - Crew Execution Finished
+2026-02-11 15:57:47,107 - INFO - Final Output:
+Here are four comprehensive test cases for the given requirement:
+
+**Test Case 1: Successful Login with Valid Credentials**
+Title: Successful Login
+Preconditions: The user has a valid username and password, and the system is available.
+Steps:
+1. The user enters their valid username in the username field.
+2. The user enters their valid password in the password field.
+3. The user clicks the login button.
+Expected Result: The user is logged in to the system and redirected to the dashboard or home page.
+
+**Test Case 2: Failed Login with Invalid Username**
+Title: Failed Login - Invalid Username
+Preconditions: The user has an invalid username and a valid password, and the system is available.
+Steps:
+1. The user enters an invalid username in the username field.
+2. The user enters their valid password in the password field.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that the username is invalid, and the user is not logged in.
+
+**Test Case 3: Failed Login with Invalid Password**
+Title: Failed Login - Invalid Password
+Preconditions: The user has a valid username and an invalid password, and the system is available.
+Steps:
+1. The user enters their valid username in the username field.
+2. The user enters an invalid password in the password field.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that the password is invalid, and the user is not logged in.
+
+**Test Case 4: Failed Login with Empty Credentials**
+Title: Failed Login - Empty Credentials
+Preconditions: The system is available.
+Steps:
+1. The user leaves the username field empty.
+2. The user leaves the password field empty.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that the username and password are required, and the user is not logged in.
+
+
+2026-02-11 15:57:47,152 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 16:02:08,243 - INFO - Starting Crew Execution
+2026-02-11 16:02:08,243 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 16:02:08,423 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:02:09,409 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:02:09,495 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:02:11,320 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:02:11,391 - INFO - Crew Execution Finished
+2026-02-11 16:02:11,392 - INFO - Final Output:
+Here are the test cases:
+
+Test Case 1: Successful Login with Valid Credentials
+Title: Successful Login
+Preconditions: The user has a valid username and password, and the system is available.
+Steps:
+1. The user enters their valid username.
+2. The user enters their valid password.
+3. The user clicks the login button.
+Expected Result: The user is logged in to the system and can access its features.
+
+Test Case 2: Failed Login with Invalid Username
+Title: Failed Login - Invalid Username
+Preconditions: The user has an invalid username and a valid password, and the system is available.
+Steps:
+1. The user enters an invalid username.
+2. The user enters their valid password.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that the username is invalid.
+
+Test Case 3: Failed Login with Invalid Password
+Title: Failed Login - Invalid Password
+Preconditions: The user has a valid username and an invalid password, and the system is available.
+Steps:
+1. The user enters their valid username.
+2. The user enters an invalid password.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that the password is invalid.
+
+Test Case 4: Failed Login with Empty Credentials
+Title: Failed Login - Empty Credentials
+Preconditions: The user has not entered a username or password, and the system is available.
+Steps:
+1. The user leaves the username field empty.
+2. The user leaves the password field empty.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that both username and password are required.
+
+Test Case 5: Failed Login with System Unavailability
+Title: Failed Login - System Unavailability
+Preconditions: The system is not available due to maintenance or technical issues.
+Steps:
+1. The user attempts to access the system.
+2. The user enters their valid username and password.
+3. The user clicks the login button.
+Expected Result: The system displays an error message indicating that it is currently unavailable.
+
+
+2026-02-11 16:02:11,444 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 16:04:51,463 - INFO - Starting Crew Execution
+2026-02-11 16:04:51,463 - INFO - Input Requirement: User should be able to log in with valid credentials.
+2026-02-11 16:04:51,689 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:04:52,603 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:04:52,716 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:04:53,784 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:04:53,799 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:04:54,838 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:04:54,933 - INFO - Crew Execution Finished
+2026-02-11 16:04:54,934 - INFO - Final Output:
+[
+  {
+    "title": "Login with Valid Credentials",
+    "preconditions": "The user has a valid username and password.",
+    "steps": [
+      "The user enters their valid username.",
+      "The user enters their valid password.",
+      "The user clicks the login button."
+    ],
+    "expected_result": "The user is logged in to the system successfully."
+  },
+  {
+    "title": "Login with Invalid Username",
+    "preconditions": "The user has an invalid username and a valid password.",
+    "steps": [
+      "The user enters an invalid username.",
+      "The user enters their valid password.",
+      "The user clicks the login button."
+    ],
+    "expected_result": "The system displays an error message indicating that the username is invalid."
+  },
+  {
+    "title": "Login with Invalid Password",
+    "preconditions": "The user has a valid username and an invalid password.",
+    "steps": [
+      "The user enters their valid username.",
+      "The user enters an invalid password.",
+      "The user clicks the login button."
+    ],
+    "expected_result": "The system displays an error message indicating that the password is invalid."
+  },
+  {
+    "title": "Login with Empty Credentials",
+    "preconditions": "The user has not entered a username or password.",
+    "steps": [
+      "The user clicks the login button without entering a username or password."
+    ],
+    "expected_result": "The system displays an error message indicating that both username and password are required."
+  },
+  {
+    "title": "Login with Malicious Input",
+    "preconditions": "The user attempts to enter malicious input to exploit the system.",
+    "steps": [
+      "The user enters a malicious input in the username or password field.",
+      "The user clicks the login button."
+    ],
+    "expected_result": "The system detects and prevents the SQL injection attempt, displaying an error message."
+  }
+]
+2026-02-11 16:04:54,980 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
+2026-02-11 16:38:28,395 - INFO - Starting Crew Execution
+2026-02-11 16:38:28,396 - INFO - Input Requirement: A user should be able to reset their password by providing a registered email address. The system must send a reset link that expires within 15 minutes. The new password must contain at least 8 characters, including one uppercase letter, one number, and one special character.
+2026-02-11 16:38:28,633 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:38:29,634 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:38:29,734 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:38:31,247 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:38:31,272 - INFO - 
+LiteLLM completion() model= llama-3.3-70b-versatile; provider = groq
+2026-02-11 16:38:32,311 - INFO - Wrapper: Completed Call, calling success_handler
+2026-02-11 16:38:32,409 - INFO - Crew Execution Finished
+2026-02-11 16:38:32,409 - INFO - Final Output:
+[  
+  {
+    "title": "Reset password with valid email and new password",
+    "preconditions": "User has a registered email address and is on the password reset page",
+    "steps": [
+      "Enter the registered email address",
+      "Click the send reset link button",
+      "Open the email and click the reset link",
+      "Enter a new password that meets the constraints (at least 8 characters, one uppercase letter, one number, and one special character)",
+      "Click the reset password button"
+    ],
+    "expected_result": "Password is successfully reset and user can log in with the new password"
+  },
+  {
+    "title": "Reset password with invalid email address",
+    "preconditions": "User is on the password reset page",
+    "steps": [
+      "Enter an invalid email address",
+      "Click the send reset link button"
+    ],
+    "expected_result": "An error message is displayed indicating that the email address is not registered"
+  },
+  {
+    "title": "Reset password with expired reset link",
+    "preconditions": "User has a registered email address and has received a reset link",
+    "steps": [
+      "Wait for more than 15 minutes after receiving the reset link",
+      "Open the email and click the reset link",
+      "Enter a new password that meets the constraints",
+      "Click the reset password button"
+    ],
+    "expected_result": "An error message is displayed indicating that the reset link has expired"
+  },
+  {
+    "title": "Reset password with weak new password",
+    "preconditions": "User has a registered email address and is on the password reset page",
+    "steps": [
+      "Enter the registered email address",
+      "Click the send reset link button",
+      "Open the email and click the reset link",
+      "Enter a new password that does not meet the constraints (less than 8 characters, no uppercase letter, no number, and no special character)",
+      "Click the reset password button"
+    ],
+    "expected_result": "An error message is displayed indicating that the new password does not meet the requirements"
+  },
+  {
+    "title": "Multiple password reset attempts",
+    "preconditions": "User has a registered email address and is on the password reset page",
+    "steps": [
+      "Enter the registered email address",
+      "Click the send reset link button",
+      "Open the email and click the reset link",
+      "Enter a new password that meets the constraints",
+      "Click the reset password button",
+      "Repeat steps 1-5 multiple times"
+    ],
+    "expected_result": "Each password reset attempt is successful and user can log in with the new password"
+  }
+]
+2026-02-11 16:38:32,679 - ERROR - HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NewConnectionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to establish a new connection: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions"))
